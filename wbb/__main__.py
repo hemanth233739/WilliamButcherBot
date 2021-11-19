@@ -109,7 +109,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                url="https://t.me/hgbotssupportgroup",
             ),
         ],
         [
@@ -118,12 +118,12 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Support 👨", url="http://t.me/hgbotssupportgroup"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="Add Me To Your Group⚡",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -131,9 +131,12 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hey there! My name is {BOT_NAME}. I can manage your "
-    + "group with lots of useful features, feel free to "
-    + "add me to your group."
+    `Hello` [🧚‍♀️](https://telegra.ph/file/e4c1ee99e1ac353f74811.mp4) `My name is` *Pikachu*
+`I am powerful  group management bot.
+Build by HEMANTH for Your Telegram Group , I specialize in managing Entertainment type groups.
+You can find my list of available commands with! Hit` *🔰Commands*   
+"""
+
 )
 
 
@@ -145,8 +148,8 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="MY FRIEND 😄 ",
+                url="https://t.me/HG_FREE_BOT",
             ),
         ],
         [
@@ -154,7 +157,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Support 👨", url="t.me/hgbotssupportgroup"),
         ],
     ]
 )
